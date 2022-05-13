@@ -105,6 +105,11 @@ _global_script_classes=[ {
 "path": "res://addons/godot-firebase/firestore/firestore_task.gd"
 }, {
 "base": "Reference",
+"class": "FirestoreTransaction",
+"language": "GDScript",
+"path": "res://addons/godot-firebase/firestore/firestore_transaction.gd"
+}, {
+"base": "Reference",
 "class": "FunctionTask",
 "language": "GDScript",
 "path": "res://addons/godot-firebase/functions/function_task.gd"
@@ -159,6 +164,7 @@ _global_script_class_icons={
 "FirestoreDocument": "",
 "FirestoreQuery": "",
 "FirestoreTask": "",
+"FirestoreTransaction": "",
 "FunctionTask": "",
 "MethodDocItem": "",
 "PropertyDocItem": "",
